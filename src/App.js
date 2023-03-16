@@ -43,8 +43,8 @@ function App() {
           {clients.map (clientes => {
             return (
               <div key={clientes.id}>
-                <p>{clientes.newName}</p>
-                <p>{clientes.newDNI}</p>
+                <p>{clientes.name}</p>
+                <p>{clientes.DNI}</p>
               </div>
             )
           })}
